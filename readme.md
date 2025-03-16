@@ -14,7 +14,6 @@ This project is a **Retrieval-Augmented Generation (RAG)**-based chatbot designe
 - [Installation and Setup](#installation-and-setup)
 - [Running the Chatbot](#running-the-chatbot)
 - [Customization](#customization)
-- [Future Enhancements](#future-enhancements)
 - [Conclusion](#conclusion)
 
 ---
@@ -94,8 +93,6 @@ RAG_Pipeline/
 │-- Split_data_in_chunk  # Split data into chunks
 │-- chromaDBRetriber    # store data into chromadb
 │-- Rag.py               #Retive data feed to llm
-│-- config.py            # Stores API keys and threshold settings
-           # Pre-trained embedding models (if any)
 ```
 
 ---
@@ -134,6 +131,8 @@ python server.py
 The chatbot will be available at `http://localhost:5000` (or the configured port).
 
 ---
+![Chatbot Architecture](a.png)
+![Chatbot Architecture](b.png)
 
 ## Customization
 
